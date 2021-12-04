@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/MenuOpc1"
+        android:title="@string/menu"
+        android:icon="@android:drawable/ic_menu_agenda"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item android:id="@+id/menuOpcConfiguracion"
+                android:title="@string/opcConfiguracion"
+                android:icon="@android:drawable/ic_menu_preferences"
+                app:showAsAction="always"/>
+
+            <item android:id="@+id/menuOpcAcercaDe"
+                android:title="@string/opcAcercaDe"
+                android:icon="@android:drawable/ic_menu_info_details"
+                app:showAsAction="ifRoom|withText"/>
+
+            <item android:id="@+id/menuOpcSalir"
+                android:title="@string/opcSalir"
+                android:icon="@android:drawable/presence_offline"
+                app:showAsAction="always"/>
+        </menu>
+    </item>
+</menu>

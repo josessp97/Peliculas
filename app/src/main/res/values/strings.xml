@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Peliculas</string>
+    <string name="consultar_pelicula">Consultar Peliculas</string>
+    <string name="opcSalir">Salir</string>
+    <string name="opcConfiguracion">Configuracion</string>
+    <string name="opcAcercaDe">Acerca De</string>
+    <string name="menu">Menú</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="insti">IES EL RINCÓN - 2021 PGV</string>
+    <string name="miNombre">Jose Maria Santana Peñate</string>
+    <string name="tituloConfig">Configuración</string>
+    <string name="tituloAcercaDe">Acerca De</string>
+    <string name="creditos">Creditos</string>
+    <string name="api_key">API_KEY</string>
+    <string name="EndPointCreditos">EndPointCreditos</string>
+    <string name="EndPointPeliculas">EndPointPeliculas</string>
+    <string name="actores">Actores</string>
+
+</resources>
